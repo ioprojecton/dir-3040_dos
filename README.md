@@ -13,6 +13,35 @@ User doesnt need to have administrator privileges to perform the attack.
 
 proof of concept in detail with pictures below
 
-D-link was contacted and strongly denied presence of the issue because they couldnt reproduce the issue.
+D-link was contacted and strongly denied presence of the issue because they couldnt reproduce the issue. All other nonsensical resolutions were denied by me.
 
 ![Screenshot](IMG_7075.png)
+
+![Screenshot](IMG_7076.png)
+
+![Screenshot](IMG_7077.png)
+
+Showing default config for new user
+
+![Screenshot](IMG_7078.png)
+
+Check for available memory in syslog
+
+![Screenshot](IMG_7079.png)
+
+![Screenshot](IMG_7080.png)
+
+Creating 300mb file with dd accessing ftp as a user with read and write privileges changing to / and writing the file
+
+![Screenshot](IMG_7081.png)
+
+![Screenshot](IMG_7083.png)
+
+![Screenshot](IMG_7082.png)
+
+
+As soon as available free memory is filled system is crashing and rebooting
+
+This can be reproduced with any size usb flash.
+
+There is no patch on solution because as per D-link USA they cant reproduce the issue.
