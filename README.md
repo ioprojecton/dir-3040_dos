@@ -40,8 +40,8 @@ Creating 300mb file with dd accessing ftp as a user with read and write privileg
 ![Screenshot](IMG_7082.png)
 
 
-As soon as available free memory is filled system is crashing and rebooting
+As soon as available free memory is filled system will crash and reboot.
 
 This can be reproduced with any size usb flash.
 
-There is no patch on solution because as per D-link USA they cant reproduce the issue.
+There is no patch or solution yet.
